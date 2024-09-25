@@ -9,9 +9,17 @@ body{
 }
 
 @media screen and (max-width: 480px) {
+    /*anytime im on a screen where the max width is less than 480px, override the original to make background red*/
     /* when writing "screen" only, "only screen" is automatically implied*/
 /*if this happens, it will make this change to the body (nested declarations)*/
 body{
     background-color: red;
 }
+}
+
+@media screen and (max-width: 320px) {
+    body{
+        background-color: yellow;
+        color: black;
+    }
 }
