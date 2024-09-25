@@ -7,3 +7,11 @@ body{
     background-color: blue;
     color: white;
 }
+
+@media screen and (max-width: 480px) {
+    /* when writing "screen" only, "only screen" is automatically implied*/
+/*if this happens, it will make this change to the body (nested declarations)*/
+body{
+    background-color: red;
+}
+}
