@@ -1,8 +1,9 @@
+*{
+    box-sizing: border-box;
+    /* star (*) means apply to all*/
+}
+
 body{
     background-color: blue;
     color: white;
-}
-*{
-    box-sizing: border-box;
-    /* * means apply to all*/
 }
